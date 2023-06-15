@@ -1,0 +1,21 @@
+   input {
+       border: solid lightgray 1px;
+   }
+
+   input:focus {
+       outline: none;
+   }
+
+   #footer input::placeholder {
+       padding: 20px;
+       font: 20px/3 sans-serif;
+   }
+
+   .fff input {
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       width: 90%;
+       height: 100%;
+       border-bottom: none !important;
+   }

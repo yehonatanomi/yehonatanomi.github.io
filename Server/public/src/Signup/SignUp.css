@@ -1,0 +1,116 @@
+.container {
+    position: relative; /* Change to relative */
+    background-color: white;
+    width: 40%;
+    height: auto; /* Change to auto */
+    top: 15%; /* Simplify margin */
+    border: none;
+    border-radius: 2%;
+    padding: 0%;
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+
+}
+
+#form-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid #99004d;
+    display: flex; /* Add display flex */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+#form-header * {
+    margin: 0 auto; /* Simplify margin */
+}
+
+#form-body {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: auto; /* Change to auto */
+}
+
+#form-footer {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center; /* Center the text */
+}
+
+#psw2,
+#username2,
+#psw-repeat,
+#name,
+#display-name {
+    border: none;
+    border-bottom: 2px solid #99004d;
+    border-radius: 0%;
+    width: 92%; /* Change to 100% */
+    margin-top: 0;
+    margin-bottom: 1%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+input[type="file"] {
+    position: relative;
+    left: 1%;
+    top: 0;
+    border: none;
+    border-bottom: none;
+    border-radius: 0%;
+    width: 100px;
+}
+
+.signupBtn {
+    position: relative;
+    width: 95%;
+    left: 0;
+    background-color: #99004d;
+    border-color: #99004d;
+    color: white;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.signupBtn:hover {
+    background-color: #99004d;
+    border-color: #99004d;
+    color: black;
+}
+
+.signupBtn:active {
+    background-color: #23a6d5 !important;
+    border-color: #23a6d5 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+#form-footer p {
+    position: static; /* Change to static */
+    margin: 0 auto; /* Center the text */
+    text-align: center; /* Center the text */
+}
+
+img {
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    width: 15%;
+}
+
+i {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+*:focus {
+    outline: none;
+}
+p {
+    margin-bottom: 2px;
+}

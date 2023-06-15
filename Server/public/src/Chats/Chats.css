@@ -1,0 +1,291 @@
+#container3 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 7.5%;
+    height: 85% !important; 
+    width: 85% !important;
+    border: 1px solid lightgray;
+
+  }
+
+  .left {
+    float: left;
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    border-right: solid lightgray 1px;
+  }
+  
+  .right {
+    position: relative;
+    left: 30%;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 70%;
+  }
+  
+  .row-aaa {
+    
+    position: relative;
+    background-color: whitesmoke;
+    height: 12%;
+    width: 100%;
+    border-bottom: solid lightgray 1px;
+  }
+  
+  .bbb {
+    background-color: aqua;
+  }
+  .chats {
+    background-color: white;
+    
+  }
+  .eee {
+    background-color: rgb(219, 219, 219);
+    height: 80%;
+    border-bottom: none;
+  }
+  .fff {
+    background-color: white;
+    height: 8%;
+    border-bottom: none;
+  }
+  .side-img {
+    float: left;
+    left: 0;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 2%;
+    height: 80%;
+    width: 15%;
+    margin-left: 1%;
+  }
+  #user {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 125%;
+    font: Georgia;
+    top: 30%;
+    margin-left: 20%;
+  }
+  .top{
+    background-color: #ebe8e8;
+  }
+  #addButton {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    float: right;
+    width: 25%;
+    height: 60%;
+    background-color: #23a6d5;
+    border-color: #23a6d5;
+  }
+  
+  .date {
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    size: 2pt;
+  }
+  #logout {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    height: 6%;
+    width: 8%;
+  }
+  #logoutLink {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .upImg {
+    position: absolute;
+    top: -15%;
+    left:2%;
+    border-radius: 50%;
+    margin-top: 2%;
+    height: 80%;
+    width: 7%;
+  }
+
+  .chat-list .chat-box .img-box {
+    position:relative;
+    width: 10%;
+    height:10%;
+    overflow:hidden;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  .chat-list .chat-box .chat-details .text-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-list .chat-box .chat-details .text-message p {
+    color: #aaa;
+    font-size: 0.9em;
+  }
+  
+  
+  /* right-container */
+  
+  
+  
+  .chat-container {
+    position:absolute;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;  /*60+60*/
+    padding: 6%;
+    padding-bottom: 0%;
+    overflow-y: auto;
+    background-size: 100%;
+    background-color: #cccccc;
+    background-image: url("https://e0.pxfuel.com/wallpapers/497/150/desktop-wallpaper-hopped-the-original-background-if-you-want-to-use-whatsapp-dark-mode-go-to-settings-chats-background-and-use-this-r-whatsapp.jpg");
+  }
+  
+  .message-box {
+    position:relative;
+    display: flex;
+    width:100%;
+    margin: 2% 0;
+  }
+  
+  .message-box p {
+    position:relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 2%;
+    background: #e73c7e;
+    border-radius: 10px;
+    font-size: 0.9em;
+  }
+  
+  .message-box.my-message p::before {
+    content : '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #e73c7e 0%, #e73c7e 50%, transparent 50%, transparent);
+  }
+  
+  .message-box p span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+  
+  .my-message {
+    justify-content: flex-end;
+  }
+  
+  .friend-message p {
+    background: #23a6d5;
+  }
+  .chats:hover {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  
+  .message-box.friend-message::before {
+    content : '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(225deg, #23a6d5 0%, #23a6d5 50%, transparent 50%, transparent);
+  }
+
+  
+   .btn-info {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width:11%;
+    margin-top: 0px;
+    border-radius: 0%;
+    background-color: #e73c7efe;
+    border-color: #e73c7efe;
+   }
+   .btn-info:hover {
+    background-color: #e73c7e;
+    border-color: #e73c7e;
+   }
+   .btn-info i {
+    position: relative;
+    top: 0px;
+   }
+
+
+   #video_call {
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    font-size: 20pt;
+    cursor: pointer;
+   }
+   #phone_call {
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    font-size: 20pt;
+    cursor: pointer;
+   }
+   .chats p {
+    color: darkblue;
+    font-weight: 500;
+   }
+   #active_contact {
+    position: relative;
+    right: 32.5%;
+    top: 20%;
+    font-weight: 500;
+    font-size: 25px;
+   }
+   
+  
+   .contact_name{
+    position: relative;
+    font-size: 20px;
+    top: 30%;
+    margin-left: 20%;
+    font-weight: normal;
+   }
+   .active {
+    background-color: rgb(0, 152, 203) !important;
+   }
+   .active:hover {
+    background-color: rgb(0, 152, 203) !important;
+   }
+   .chats i {
+    position: absolute;
+    right: 2.5%;
+    bottom: 50%;
+    color: red;
+    font-size: 100%;
+    cursor: pointer;
+   }
+   .chatID {
+    display: none;
+   }
+   #exampleModalLabel {
+    margin-left: 1px;
+   }
+  
