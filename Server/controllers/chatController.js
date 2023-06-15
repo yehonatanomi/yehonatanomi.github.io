@@ -41,8 +41,14 @@ async function createChat(req, res) {
   const users = [sender, receiver];
   
   try {
-    const chat = await chatService.createChat(users);
     const user = await userService.getUserByUsername(receiver);
+    if(!user){
+      throw new Error('Failed to create chat');
+    }
+    if(sender === receiver){
+      throw new Error('Failed to create chat');
+    }
+    const chat = await chatService.createChat(users);
     
     const response = {
       "id": chat._id,
